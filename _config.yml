@@ -1,0 +1,11 @@
+title: HackGrounds
+description: The world's first PvP cybersecurity platform
+url: "https://hackgrounds.net"
+baseurl: "/"
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
