@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let progress = Math.min(Math.max((scrolled / sectionHeight) * 100, 0), 100);
         
 
-        const maxProgress = 45; 
+        const maxProgress = 65;
         progress = Math.min(progress, maxProgress);
         
         progressBar.style.width = progress + '%';

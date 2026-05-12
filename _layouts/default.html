@@ -24,6 +24,8 @@
                     class="nav-link {% if page.url contains 'index-es' %}active{% endif %}">Inicio</a>
                 <a href="{{ '/roadmap-es.html' | relative_url }}"
                     class="nav-link {% if page.url contains 'roadmap-es' %}active{% endif %}">Roadmap</a>
+                <a href="{{ '/changelog-es.html' | relative_url }}"
+                    class="nav-link {% if page.url contains 'changelog-es' %}active{% endif %}">Changelog</a>
                 <a href="https://app.hackgrounds.net" class="btn-primary">Acceso Plataforma</a>
                 <div class="lang-switcher">
                     <a href="{{ '/' | relative_url }}">EN</a>
@@ -34,6 +36,8 @@
                     class="nav-link {% if page.url == '/' or page.url contains 'index.html' %}active{% endif %}">Home</a>
                 <a href="{{ '/roadmap.html' | relative_url }}"
                     class="nav-link {% if page.url contains 'roadmap.html' %}active{% endif %}">Roadmap</a>
+                <a href="{{ '/changelog.html' | relative_url }}"
+                    class="nav-link {% if page.url contains 'changelog.html' %}active{% endif %}">Changelog</a>
                 <a href="https://app.hackgrounds.net" class="btn-primary">Access Platform</a>
                 <div class="lang-switcher">
                     <a href="{{ '/' | relative_url }}" class="active">EN</a>
@@ -65,12 +69,14 @@
                     <ul>
                         <li><a href="https://app.hackgrounds.net">Acceder a la Beta</a></li>
                         <li><a href="{{ '/roadmap-es.html' | relative_url }}">Roadmap</a></li>
+                        <li><a href="{{ '/changelog-es.html' | relative_url }}">Changelog</a></li>
                     </ul>
                     {% else %}
                     <h4>LINKS</h4>
                     <ul>
                         <li><a href="https://app.hackgrounds.net">Access Beta</a></li>
                         <li><a href="{{ '/roadmap.html' | relative_url }}">Roadmap</a></li>
+                        <li><a href="{{ '/changelog.html' | relative_url }}">Changelog</a></li>
                     </ul>
                     {% endif %}
                 </div>

@@ -7,13 +7,17 @@ description: La primera plataforma PvP de ciberseguridad - Batallas de hacking 1
 
 <section class="hero">
     <div class="hero-content container">
-        <h1 class="hero-title">La Primera Plataforma PvP de Ciberseguridad</h1>
+        <h1 class="hero-title">Hackea. Compite. Domina.</h1>
         <p class="hero-subtitle">
-            Batallas de hacking 1v1 en tiempo real. Compite, explota, conquista.
+            CTF 1v1 en tiempo real contra hackers de todo el mundo
         </p>
         <div class="hero-buttons">
-            <a href="https://app.hackgrounds.net" class="btn-primary">Acceder a la Beta</a>
+            <a href="https://app.hackgrounds.net/register" class="btn-primary">Jugar Gratis &rarr;</a>
             <a href="{{ '/roadmap-es.html' | relative_url }}" class="btn-secondary">Ver Roadmap</a>
+        </div>
+        <div class="hero-screenshot">
+            <img src="{{ '/assets/img/demo-flagrush.png' | relative_url }}" alt="Flag Rush gameplay"
+                class="hero-img placeholder-img" />
         </div>
     </div>
 </section>
@@ -30,8 +34,8 @@ description: La primera plataforma PvP de ciberseguridad - Batallas de hacking 1
                 <div class="stat-label">Batallas en Tiempo Real</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">30m</div>
-                <div class="stat-label">Duración Máxima</div>
+                <div class="stat-number">2</div>
+                <div class="stat-label">Modos de Juego</div>
             </div>
             <div class="stat-item">
                 <div class="stat-number">ELO</div>
@@ -43,16 +47,61 @@ description: La primera plataforma PvP de ciberseguridad - Batallas de hacking 1
 
 <section class="how-section">
     <div class="container">
+        <h2 class="section-title">Modos de Juego</h2>
+        <p class="section-subtitle">
+            Elige tu forma de competir. Desde duelos rápidos 1v1 hasta torneos organizados.
+        </p>
+
+        <div class="gamemodes-grid">
+            <div class="gamemode-card">
+                <div class="gamemode-icon">&#x1f5a5;</div>
+                <h3 class="gamemode-title">Root Race</h3>
+                <p class="gamemode-description">
+                    Duelo clásico 1v1. Ambos jugadores atacan la misma máquina vulnerable.
+                    El primero en capturar la flag ROOT gana. Modo Clasificatorio o Normal.
+                </p>
+                <img src="{{ '/assets/img/demo-rootrace.png' | relative_url }}" alt="Root Race gameplay"
+                    class="gamemode-img placeholder-img" />
+            </div>
+
+            <div class="gamemode-card gamemode-featured">
+                <span class="gamemode-badge">Beta Gratis</span>
+                <div class="gamemode-icon">&#x26a1;</div>
+                <h3 class="gamemode-title">Flag Rush</h3>
+                <p class="gamemode-description">
+                    3 máquinas secuenciales, 1 flag cada una. Compite por capturar más flags.
+                    Ritmo rápido, alta intensidad. Una forma completamente nueva de competir.
+                </p>
+                <img src="{{ '/assets/img/demo-flagrush.png' | relative_url }}" alt="Flag Rush gameplay"
+                    class="gamemode-img placeholder-img" />
+            </div>
+
+            <div class="gamemode-card">
+                <div class="gamemode-icon">&#x1f3c6;</div>
+                <h3 class="gamemode-title">Torneos</h3>
+                <p class="gamemode-description">
+                    Competición organizada con formatos BO1, BO3 o BO5.
+                    Eliminación simple y sistema suizo. Escala el bracket hasta la cima.
+                </p>
+                <img src="{{ '/assets/img/demo-tournaments.png' | relative_url }}" alt="Tournament bracket"
+                    class="gamemode-img placeholder-img" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="how-section">
+    <div class="container">
         <h2 class="section-title">Cómo Funciona</h2>
         <p class="section-subtitle">
-            Únete a la cola, emparejate con un oponente y hackea tu camino para rootear una máquina vulnerable
+            Únete a la cola, emparéjate con un oponente y hackea tu camino hasta root
         </p>
 
         <div class="features-grid">
             <div class="feature-card">
                 <h3 class="feature-title">Matchmaking</h3>
                 <p class="feature-description">
-                    Elige entre modos Clasificatorio o Normal. Empareja instantáneamente con oponentes de nivel similar.
+                    Elige entre modos Clasificatorio o Normal. Empareja instantáneamente con oponentes.
                 </p>
             </div>
 
@@ -80,17 +129,16 @@ description: La primera plataforma PvP de ciberseguridad - Batallas de hacking 1
             </div>
 
             <div class="feature-card">
-                <h3 class="feature-title">Torneos</h3>
+                <h3 class="feature-title">Salas Privadas</h3>
                 <p class="feature-description">
-                    Compite en torneos organizados con formatos BO1, BO3 o BO5. Sistema de eliminación simple y suizo
-                    disponible.
+                    Crea salas privadas con códigos de invitación. Reta a tus amigos sin afectar tu clasificación ELO.
                 </p>
             </div>
 
             <div class="feature-card">
-                <h3 class="feature-title">Salas Privadas</h3>
+                <h3 class="feature-title">i18n Completo</h3>
                 <p class="feature-description">
-                    Crea salas privadas con códigos de invitación. Reta a tus amigos sin afectar tu clasificación ELO.
+                    Toda la plataforma disponible en inglés y español. Juega en tu idioma.
                 </p>
             </div>
         </div>
@@ -101,8 +149,8 @@ description: La primera plataforma PvP de ciberseguridad - Batallas de hacking 1
     <div class="container">
         <h2 class="cta-title">¿Listo para Competir?</h2>
         <p class="cta-description">
-            Accede a la beta y experimenta el futuro del hacking competitivo
+            Únete a la arena y demuestra tus habilidades contra hackers reales
         </p>
-        <a href="https://app.hackgrounds.net" class="btn-primary">Acceder a la Beta</a>
+        <a href="https://app.hackgrounds.net/register" class="btn-primary">Jugar Gratis &rarr;</a>
     </div>
 </section>
